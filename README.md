@@ -1,5 +1,5 @@
 # ArduinoOBD
-##Arduino OBD Serial Communication with ELM327 (over Bluetooth)
+Arduino OBD Serial Communication with ELM327 (over Bluetooth)
 
 this sketch contains all PID requests and their associated calculations from the responded hex value to an actually useable int/float that were available for my Opel Corsa D (2014) (34 PIDs)
 
