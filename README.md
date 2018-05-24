@@ -4,7 +4,7 @@ Arduino OBD Serial Communication with ELM327 (over Bluetooth)
 this sketch contains all PID requests and their associated calculations from the responded hex value to an actually useable int/float that were available for my Opel Corsa D (2014) (34 PIDs)
 
 to obtain all PIDs available for your specific vehicle send "0100", "0120", ... via Serial Monitor and translate the response as described here: [Decode Available PIDs](https://en.wikipedia.org/wiki/OBD-II_PIDs#Mode_1_PID_00, "Wikipedia")
-For example: "0100" -> "41 00 BE 3F B8 13" --> B = 1011, E = 1110 so PID numbers 1,3,4,5,6,7 are supported, while 2 and 8 are not. repeat for all ranges (there are hex and dec pid numbers!)
+For example: "0100" -> "41 00 BE 3F B8 13" --> B = 1011, E = 1110, ...  so PID numbers 1,3,4,5,6,7, ... are supported, while 2 and 8, ... are not. repeat for all ranges (there are hex and dec pid numbers!)
 [Hex to Bin Translator](http://www.arndt-bruenner.de/mathe/scripts/Zahlensysteme.htm#hexbin, "Hex to Bin")
 
 For initial bluetooth setup between hc05 and elm327 use [this guide](https://sites.google.com/site/grcbyte/electronica/arduino/obdii-bluetooth, "https://sites.google.com/site/grcbyte/...") in combination with google translator
